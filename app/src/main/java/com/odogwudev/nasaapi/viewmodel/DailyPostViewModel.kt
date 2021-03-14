@@ -5,7 +5,7 @@ import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
 import com.odogwudev.nasaapi.model.DailyPost
 import com.odogwudev.nasaapi.utils.DataState
-import com.odogwudev.repository.MainRepository
+import com.odogwudev.nasaapi.repository.MainRepository
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch

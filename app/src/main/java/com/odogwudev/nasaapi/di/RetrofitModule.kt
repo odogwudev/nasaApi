@@ -2,7 +2,7 @@ package com.odogwudev.nasaapi.di
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.odogwudev.repository.retrofit.NetworkService
+import com.odogwudev.nasaapi.repository.retrofit.NetworkService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

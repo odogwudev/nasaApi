@@ -2,8 +2,8 @@ package com.odogwudev.nasaapi.di
 
 import android.content.Context
 import androidx.room.Room
-import com.odogwudev.repository.room.DatabaseDao
-import com.odogwudev.repository.room.Database
+import com.odogwudev.nasaapi.repository.room.DatabaseDao
+import com.odogwudev.nasaapi.repository.room.Database
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

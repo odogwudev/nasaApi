@@ -1,4 +1,4 @@
-package com.odogwudev.repository.retrofit.dailypost
+package com.odogwudev.nasaapi.repository.retrofit.dailypost
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

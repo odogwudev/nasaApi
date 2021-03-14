@@ -1,9 +1,8 @@
-package com.odogwudev.repository.room.dailypost
+package com.odogwudev.nasaapi.repository.room.dailypost
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.util.*
 
 @Entity(tableName = "dailyPosts")
 data class DailyPostCacheEntity(

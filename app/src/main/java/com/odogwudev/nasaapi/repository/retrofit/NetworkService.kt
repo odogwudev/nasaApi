@@ -1,8 +1,7 @@
-package com.odogwudev.repository.retrofit
+package com.odogwudev.nasaapi.repository.retrofit
 
-import com.odogwudev.repository.retrofit.dailypost.DailyPostNetworkEntity
+import com.odogwudev.nasaapi.repository.retrofit.dailypost.DailyPostNetworkEntity
 import retrofit2.http.GET
-import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface NetworkService {

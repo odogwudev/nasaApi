@@ -1,12 +1,11 @@
-package com.odogwudev.repository.retrofit.dailypost
+package com.odogwudev.nasaapi.repository.room.dailypost
 
 import com.odogwudev.nasaapi.model.DailyPost
 import com.odogwudev.nasaapi.utils.EntityMapper
 import javax.inject.Inject
 
-class DailyPostNetworkMapper @Inject constructor() :
-    EntityMapper<DailyPostNetworkEntity, DailyPost> {
-    override fun mapFromEntity(entity: DailyPostNetworkEntity): DailyPost {
+class DailyPostCacheMapper @Inject constructor() : EntityMapper<DailyPostCacheEntity, DailyPost> {
+    override fun mapFromEntity(entity: DailyPostCacheEntity): DailyPost {
         return DailyPost(
             entity.date,
             entity.explanation,
@@ -15,8 +14,8 @@ class DailyPostNetworkMapper @Inject constructor() :
         )
     }
 
-    override fun mapToEntity(domainModel: DailyPost): DailyPostNetworkEntity {
-        return DailyPostNetworkEntity(
+    override fun mapToEntity(domainModel: DailyPost): DailyPostCacheEntity {
+        return DailyPostCacheEntity(
             domainModel.date,
             domainModel.explanation,
             domainModel.hdUrl,
@@ -24,7 +23,7 @@ class DailyPostNetworkMapper @Inject constructor() :
         )
     }
 
-    fun mapFromEntityList(entities: List<DailyPostNetworkEntity>): List<DailyPost> {
+    fun mapFromEntityList(entities: List<DailyPostCacheEntity>): List<DailyPost> {
         return entities.map { mapFromEntity(it) }
     }
 }

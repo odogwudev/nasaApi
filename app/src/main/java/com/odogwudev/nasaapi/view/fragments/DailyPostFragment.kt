@@ -15,7 +15,6 @@ import com.odogwudev.nasaapi.model.DailyPost
 import com.odogwudev.nasaapi.utils.DataState
 import com.odogwudev.nasaapi.viewmodel.DailyPostViewModel
 import com.odogwudev.nasaapi.viewmodel.StateEvent
-import com.odogwudev.repository.MainRepository.Companion.TAG
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.daily_post_fragment_layout.*
 

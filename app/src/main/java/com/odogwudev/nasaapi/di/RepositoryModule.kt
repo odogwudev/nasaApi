@@ -1,11 +1,11 @@
 package com.odogwudev.nasaapi.di
 
 import android.content.Context
-import com.odogwudev.repository.MainRepository
-import com.odogwudev.repository.retrofit.NetworkService
-import com.odogwudev.repository.retrofit.dailypost.DailyPostNetworkMapper
-import com.odogwudev.repository.room.DatabaseDao
-import com.odogwudev.repository.room.dailypost.DailyPostCacheMapper
+import com.odogwudev.nasaapi.repository.MainRepository
+import com.odogwudev.nasaapi.repository.retrofit.NetworkService
+import com.odogwudev.nasaapi.repository.retrofit.dailypost.DailyPostNetworkMapper
+import com.odogwudev.nasaapi.repository.room.DatabaseDao
+import com.odogwudev.nasaapi.repository.room.dailypost.DailyPostCacheMapper
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

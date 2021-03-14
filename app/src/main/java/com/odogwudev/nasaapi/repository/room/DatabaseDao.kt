@@ -1,10 +1,10 @@
-package com.odogwudev.repository.room
+package com.odogwudev.nasaapi.repository.room
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.odogwudev.repository.room.dailypost.DailyPostCacheEntity
+import com.odogwudev.nasaapi.repository.room.dailypost.DailyPostCacheEntity
 
 @Dao
 interface DatabaseDao {
