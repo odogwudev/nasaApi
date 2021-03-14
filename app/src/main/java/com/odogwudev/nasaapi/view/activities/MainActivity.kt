@@ -3,6 +3,7 @@ package com.odogwudev.nasaapi.view.activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.odogwudev.nasaapi.R
+import com.odogwudev.nasaapi.view.adapters.MainPagerAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 
