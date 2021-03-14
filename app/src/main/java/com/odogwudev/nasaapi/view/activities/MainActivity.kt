@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.odogwudev.nasaapi.R
 import com.odogwudev.nasaapi.view.adapters.MainPagerAdapter
+import com.odogwudev.nasaapi.view.fragments.AsteroidsFragment
+import com.odogwudev.nasaapi.view.fragments.DailyPostFragment
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 
